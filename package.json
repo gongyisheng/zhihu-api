@@ -1,0 +1,29 @@
+{
+  "name": "zhihu-api",
+  "version": "1.0.0",
+  "description": "zhihu-api project",
+  "main": "app/index.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=production node app/index.js",
+    "dev": "nodemon app/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "jsonwebtoken": "^8.5.1",
+    "koa": "^2.13.3",
+    "koa-body": "^4.2.0",
+    "koa-json-error": "^3.1.2",
+    "koa-jwt": "^4.0.3",
+    "koa-parameter": "^3.0.1",
+    "koa-router": "^10.1.1",
+    "koa-static": "^5.0.0",
+    "mongoose": "^6.0.10"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "nodemon": "^2.0.13"
+  }
+}
